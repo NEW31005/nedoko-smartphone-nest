@@ -1,16 +1,25 @@
-# nedoko_smartphone_nest
+# NEDOKO / スマホねぐら
 
-A new Flutter project.
+Non-medical sleep-entry ritual app built with Flutter Web first.
 
-## Getting Started
+NEDOKO helps the user stop nighttime phone use by putting a small phone buddy into a nest, covering it with a blanket, and collecting a gentle morning souvenir.
 
-This project is a starting point for a Flutter application.
+Public build:
 
-A few resources to get you started if this is your first Flutter project:
+- https://new31005.github.io/nedoko-smartphone-nest/
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Scope
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Mobile-first Flutter app
+- Local persistence with `shared_preferences`
+- Core flow: tuck phone -> cover blanket -> sleeping state -> morning souvenir -> shelf
+- Screens: ねぐら, 棚, 装い, 設定
+- Non-medical boundary: no medicine, dosage, diagnosis, treatment, or sleep-effect claims
+
+## Commands
+
+```powershell
+C:\Users\Rig5070\flutter\bin\flutter.bat analyze
+C:\Users\Rig5070\flutter\bin\flutter.bat test
+C:\Users\Rig5070\flutter\bin\flutter.bat build web --release --base-href /nedoko-smartphone-nest/
+```
